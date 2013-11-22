@@ -16,6 +16,14 @@ environments {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         }
+        dataSource_test {
+            dialect = org.hibernate.dialect.MySQLInnoDBDialect
+            driverClassName = 'com.mysql.jdbc.Driver'
+            username = 'root'
+            password = 'root'
+            url = 'jdbc:mysql://localhost:3306/test'
+            dbCreate = 'update'
+        }
     }
     test {
         dataSource {
