@@ -17,11 +17,11 @@ environments {
             url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         }
         dataSource_test {
-            dialect = org.hibernate.dialect.MySQLInnoDBDialect
+            dialect = org.hibernate.dialect.MySQL5InnoDBDialect
             driverClassName = 'com.mysql.jdbc.Driver'
             username = 'root'
             password = 'root'
-            url = 'jdbc:mysql://localhost:3306/test'
+            url = 'jdbc:mysql://localhost:3306/asd'        // Change asd to required database       create database in sql
             dbCreate = 'update'
         }
     }
