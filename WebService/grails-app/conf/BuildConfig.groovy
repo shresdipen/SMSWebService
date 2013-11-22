@@ -42,7 +42,7 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
 
         runtime 'mysql:mysql-connector-java:5.1.22'
-        runtime "org.mongodb:mongo-java-driver:2.11.1"
+        compile "org.mongodb:mongo-java-driver:2.11.1"
     }
 
     plugins {
