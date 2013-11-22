@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e368b3-c939-4006-9b47-b7e3737d1837" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/webservice/Dom.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/webservice/DomTests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/webservice/TestController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/webservice/TestControllerTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebService-grailsPlugins.iml" afterPath="$PROJECT_DIR$/WebService-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebService.iml" afterPath="$PROJECT_DIR$/WebService.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebService.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385104789464" ignored="false" />
+    <file path="/Dummy.txt" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385110861259" ignored="false" />
     <file path="/TestDBController.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385097992389" ignored="false" />
     <file path="/Unique.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385098301883" ignored="false" />
     <file path="/DataSource.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385099336468" ignored="false" />
-    <file path="/a.dummy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385107520684" ignored="false" />
+    <file path="/a.dummy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385110859718" ignored="false" />
     <file path="/Dom.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385104891670" ignored="false" />
     <file path="/TestController.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385109906594" ignored="false" />
     <file path="/SqlCohortOperation.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385107607053" ignored="false" />
     <file path="$PROJECT_DIR$/../../Current Version/DasBackend/DasTest/src/groovy/com/deerwalk/das/cohort/SqlCohortOperation.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385107610357" ignored="false" />
-    <file path="/BuildConfig.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385108016381" ignored="false" />
+    <file path="/BuildConfig.groovy" changelist="48e368b3-c939-4006-9b47-b7e3737d1837" time="1385110734076" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +89,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="53" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TestController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/webservice/TestController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="365" selection-end="365" vertical-scroll-proportion="0.6439394">
+            <state line="18" column="18" selection-start="384" selection-end="384" vertical-scroll-proportion="0.6818182">
               <folding />
             </state>
           </provider>
@@ -437,7 +441,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.7177419" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3231511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -541,6 +545,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.6.0/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="661" column="0" selection-start="24792" selection-end="24792" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/webservice/Dom.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="12" selection-start="77" selection-end="77" vertical-scroll-proportion="-1.5625">
@@ -551,16 +562,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.6.0/src.zip!/java/lang/Thread.java">
+    <entry file="jar://$USER_HOME$/grails-2.2.3/src/grails-bootstrap-2.2.3-sources.jar!/org/codehaus/groovy/grails/resolve/config/DependencyConfigurationConfigurer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="661" column="0" selection-start="24792" selection-end="24792" vertical-scroll-proportion="0.33333334">
+        <state line="144" column="9" selection-start="4747" selection-end="4747" vertical-scroll-proportion="1.2992126">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="32" selection-start="2346" selection-end="2346" vertical-scroll-proportion="1.1377552">
+        <state line="44" column="53" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -574,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/webservice/TestController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="365" selection-end="365" vertical-scroll-proportion="0.6439394">
+        <state line="18" column="18" selection-start="384" selection-end="384" vertical-scroll-proportion="0.6818182">
           <folding />
         </state>
       </provider>
@@ -586,7 +597,7 @@
         <entry key="WebService">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="1268380585" />
+              <option name="buildConfigCrc" value="-2117460017" />
               <option name="pluginDependenciesCrc" value="-962284282" />
               <option name="properties">
                 <map>
