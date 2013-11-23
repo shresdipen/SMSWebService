@@ -43,6 +43,8 @@ grails.project.dependency.resolution = {
 
         runtime 'mysql:mysql-connector-java:5.1.22'
         compile "org.mongodb:mongo-java-driver:2.11.1"
+        compile "org.elasticsearch:elasticsearch:0.90.2"
+        compile "com.fasterxml.jackson.core:jackson-databind:2.1.3"
     }
 
     plugins {

@@ -1,19 +1,23 @@
 package webservice
 
+import com.mongodb.util.JSON
+import org.codehaus.groovy.grails.web.json.JSONObject
+import org.elasticsearch.common.xcontent.XContentBuilder
+
 class TestController {
 
     def index() {
-        Dom dom = new Dom()
-        dom.a="asd"
-        dom.save(failOnError: true)
-        dom.a="asd123"
-        println "id: "+dom.id
-        Long id = dom.id
-        dom.id=2000
-        dom.get(2000)
-        dom=Dom.findById(id)
-        dom.delete()
-        render "a"
+//        Dom dom = new Dom()
+//        dom.a="asd"
+//        dom.save(failOnError: true)
+//        dom.a="asd123"
+//        println "id: "+dom.id
+//        Long id = dom.id
+//        dom.id=2000
+//        dom.get(2000)
+//        dom=Dom.findById(id)
+//        dom.delete()
+
 
 //        Example For MongoDB
 //        MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://localhost"));
@@ -23,7 +27,8 @@ class TestController {
 //        BasicDBObject session = new BasicDBObject("username", username);
 //        session.append("_id", sessionID);
 //        sessionsCollection.insert(session);
-
-
+        String json = "{\"Status\":\"Safe\"}"
+        JSONObject finalJson = new JSONObject(json)
+        render finalJson
     }
 }
