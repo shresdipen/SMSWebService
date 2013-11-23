@@ -31,4 +31,9 @@ class TestController {
         JSONObject finalJson = new JSONObject(json)
         render finalJson
     }
+
+    def create() {
+        ESTestService.testES()
+        render "Create Called"
+    }
 }
